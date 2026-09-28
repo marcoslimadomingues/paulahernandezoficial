@@ -1,0 +1,26 @@
+User-agent: *
+Allow: /
+Disallow: /admin/
+Disallow: /private/
+Disallow: /wp-admin/
+Disallow: /includes/
+Disallow: /cgi-bin/
+Disallow: /tmp/
+
+# Permitir arquivos específicos
+Allow: /sitemap.xml
+Allow: /robots.txt
+
+# Impedir rastreamento de parâmetros de URL desnecessários
+Disallow: /*?*utm_
+
+# Taxa de rastreamento para Googlebot
+User-agent: Googlebot
+Crawl-delay: 1
+
+# Taxa de rastreamento para Bingbot
+User-agent: Bingbot
+Crawl-delay: 2
+
+# Sitemap
+Sitemap: https://paulahernandezoficial.com.br/sitemap.xml

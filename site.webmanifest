@@ -1,0 +1,13 @@
+{
+  "name": "Paula Hernandez — Mentoria em Comportamento e Vendas",
+  "short_name": "Paula Hernandez",
+  "lang": "pt-BR",
+  "start_url": "/",
+  "display": "browser",
+  "background_color": "#F7F8FA",
+  "theme_color": "#0B1F33",
+  "icons": [
+    {"src": "/favicon.png", "sizes": "512x512", "type": "image/png"},
+    {"src": "/favicon.webp", "sizes": "192x192", "type": "image/webp"}
+  ]
+}
